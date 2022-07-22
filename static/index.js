@@ -177,7 +177,7 @@ function SubmitResults() {
 function gameTime() {
     _gameTimeNum--;
     if (_gameTimeNum <= 0) {
-        GameTimeLayer.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;时间到！';
+        GameTimeLayer.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;操你妈逼，你玩了！';
         gameOver();
         GameLayerBG.className += ' flash';
         createjs.Sound.play("end");
@@ -343,10 +343,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '鸡你太美';
-    if (score <= 60) return '鸡你太太美';
+    if (score <= 30) return '我叫刘凡来自梓州中学九年级12班';
+    if (score <= 60) return '我是梓州中学九年级12班的刘班同学我操你妈逼';
     if (score <= 100) return '鸡鸡鸡鸡鸡';
-    if (score <= 150) return '唱 跳 rap 篮球';
+    if (score <= 150) return '操你妈';
     return '你就是蔡徐坤本人？';
 }
 
