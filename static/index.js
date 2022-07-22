@@ -343,7 +343,7 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '我叫刘凡来自梓州中学九年级12班';
+    if (score <= 30) return '我叫刘凡来自梓州中学九年级12班,你的得分我只能说操你妈';
     if (score <= 60) return '我是梓州中学九年级12班的刘班同学我操你妈逼';
     if (score <= 100) return '鸡鸡鸡鸡鸡';
     if (score <= 150) return '操你妈';
